@@ -7,9 +7,11 @@ TypeNames:
 	dw .Poison
 	dw .Ground
 	dw .Rock
-	dw .Bird
+	dw .Unknown
 	dw .Bug
 	dw .Ghost
+	dw .Feral
+	dw .Food
 
 REPT UNUSED_TYPES_END - UNUSED_TYPES
 	dw .Normal
@@ -22,6 +24,7 @@ ENDR
 	dw .Psychic
 	dw .Ice
 	dw .Dragon
+	dw .Cosmic
 
 	assert_table_length NUM_TYPES
 
@@ -37,7 +40,10 @@ ENDR
 .Ice:      db "ICE@"
 .Ground:   db "GROUND@"
 .Rock:     db "ROCK@"
-.Bird:     db "BIRD@"
+.Unknown:  db "UNKNOWN@"
 .Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
+.Feral:    db "FERAL@"
+.Food:     db "FOOD@"
+.Cosmic:   db "COSMIC@"

@@ -5,7 +5,6 @@ SECTION "bank1", ROMX
 
 INCLUDE "data/sprites/facings.asm"
 INCLUDE "engine/events/black_out.asm"
-INCLUDE "data/pokemon/mew.asm"
 INCLUDE "engine/battle/safari_zone.asm"
 INCLUDE "engine/movie/title.asm"
 INCLUDE "engine/pokemon/load_mon_data.asm"
@@ -150,22 +149,16 @@ INCLUDE "engine/pokemon/bills_pc.asm"
 SECTION "Battle Engine 3", ROMX
 
 INCLUDE "engine/battle/print_type.asm"
-INCLUDE "engine/battle/save_trainer_name.asm"
-INCLUDE "engine/battle/move_effects/focus_energy.asm"
-
 
 SECTION "Battle Engine 4", ROMX
 
 INCLUDE "engine/battle/move_effects/leech_seed.asm"
-
+INCLUDE "engine/battle/move_effects/focus_energy.asm"
+INCLUDE "engine/battle/save_trainer_name.asm"
+INCLUDE "engine/battle/display_effectiveness.asm"
 
 SECTION "Battle Engine 5", ROMX
 
-INCLUDE "engine/battle/display_effectiveness.asm"
-INCLUDE "gfx/trainer_card.asm"
-INCLUDE "engine/items/tmhm.asm"
-INCLUDE "engine/battle/scale_sprites.asm"
-INCLUDE "engine/battle/move_effects/pay_day.asm"
 INCLUDE "engine/slots/game_corner_slots2.asm"
 
 
@@ -173,15 +166,11 @@ SECTION "Battle Engine 6", ROMX
 
 INCLUDE "engine/battle/move_effects/mist.asm"
 INCLUDE "engine/battle/move_effects/one_hit_ko.asm"
+INCLUDE "engine/battle/move_effects/pay_day.asm"
 
 
 SECTION "Slot Machines", ROMX
 
-INCLUDE "engine/movie/title2.asm"
-INCLUDE "engine/battle/link_battle_versus_text.asm"
-INCLUDE "engine/slots/slot_machine.asm"
-INCLUDE "engine/events/pewter_guys.asm"
-INCLUDE "engine/math/multiply_divide.asm"
 INCLUDE "engine/slots/game_corner_slots.asm"
 
 
@@ -204,6 +193,8 @@ SECTION "Battle Core", ROMX
 
 INCLUDE "engine/battle/core.asm"
 INCLUDE "engine/battle/effects.asm"
+INCLUDE "engine/events/pewter_guys.asm"
+INCLUDE "engine/math/multiply_divide.asm"
 
 
 SECTION "bank10", ROMX
@@ -227,6 +218,8 @@ INCLUDE "engine/overworld/hidden_objects.asm"
 SECTION "Screen Effects", ROMX
 
 INCLUDE "engine/gfx/screen_effects.asm"
+INCLUDE "engine/movie/title2.asm"
+INCLUDE "engine/battle/link_battle_versus_text.asm"
 
 
 SECTION "Predefs", ROMX
@@ -239,6 +232,9 @@ SECTION "Battle Engine 8", ROMX
 
 INCLUDE "engine/battle/init_battle_variables.asm"
 INCLUDE "engine/battle/move_effects/paralyze.asm"
+INCLUDE "engine/battle/scale_sprites.asm"
+INCLUDE "engine/items/tmhm.asm"
+INCLUDE "gfx/trainer_card.asm"
 
 
 SECTION "Hidden Objects 2", ROMX
@@ -258,6 +254,7 @@ INCLUDE "engine/battle/experience.asm"
 SECTION "Diploma", ROMX
 
 INCLUDE "engine/events/diploma.asm"
+INCLUDE "engine/slots/slot_machine.asm"
 
 
 SECTION "Trainer Sight", ROMX
@@ -307,8 +304,6 @@ INCLUDE "engine/events/hidden_objects/pokecenter_pc.asm"
 
 SECTION "Battle Engine 11", ROMX
 
-INCLUDE "engine/battle/decrement_pp.asm"
-INCLUDE "gfx/version.asm"
 INCLUDE "engine/pokemon/evos_moves.asm"
 
 
@@ -337,12 +332,14 @@ INCLUDE "engine/items/itemfinder.asm"
 SECTION "Vending Machine", ROMX
 
 INCLUDE "engine/events/vending_machine.asm"
+INCLUDE "engine/battle/decrement_pp.asm"
 
 
 SECTION "Itemfinder 2", ROMX
 
 INCLUDE "engine/menus/league_pc.asm"
 INCLUDE "engine/events/hidden_items.asm"
+INCLUDE "gfx/version.asm"
 
 
 SECTION "bank1E", ROMX
@@ -357,3 +354,4 @@ INCLUDE "data/battle_anims/frame_blocks.asm"
 INCLUDE "engine/movie/evolution.asm"
 INCLUDE "engine/overworld/elevator.asm"
 INCLUDE "engine/items/tm_prices.asm"
+

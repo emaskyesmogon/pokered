@@ -49,7 +49,7 @@ MonsterNames::
 	db "PSYDUCK@@@"
 	db "DROWZEE@@@"
 	db "GOLEM@@@@@"
-	db "BALOONDER@"
+	db "BLOONDER@@"
 	db "MAGMAR@@@@"
 	db "FREEZETI@@"
 	db "ELECTABUZZ"
