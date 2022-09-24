@@ -1,6 +1,6 @@
 	db DEX_SANDSHREW ; pokedex id
 
-	db  50,  75,  85,  40,  30
+	db  50,  90,  85,  40,  30
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type
@@ -18,7 +18,7 @@
 	     SUBMISSION,   SEISMIC_TOSS, RAGE,         EARTHQUAKE,   FISSURE,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
-	     STRENGTH
+	     STRENGTH,     ROCK_SLIDE
 	; end
 
 	db 0 ; padding

@@ -19,8 +19,8 @@
 	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     FISSURE,      MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     FIRE_BLAST,   SKULL_BASH,   SOFTBOILED,   REST,         ROCK_SLIDE,   \
+		 SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db 0 ; padding

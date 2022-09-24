@@ -1,6 +1,6 @@
 	db DEX_FLAREON ; pokedex id
 
-	db  65, 130,  60,  65, 110
+	db  95, 130,  60,  65, 110
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -16,7 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         EXPLOSION,    \
+		 SUBSTITUTE
 	; end
 
 	db 0 ; padding

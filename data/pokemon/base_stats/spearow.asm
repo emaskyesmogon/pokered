@@ -1,9 +1,9 @@
 	db DEX_SPEAROW ; pokedex id
 
-	db  40,  60,  30,  70,  31
+	db  40,  70,  30,  70,  31
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
+	db FERAL, FLYING ; type
 	db 255 ; catch rate
 	db 58 ; base exp
 

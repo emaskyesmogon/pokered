@@ -1,9 +1,9 @@
 	db DEX_BEEDRILL ; pokedex id
 
-	db  65,  80,  40,  75,  45
+	db  65, 100,  40, 125,  45
 	;   hp  atk  def  spd  spc
 
-	db BUG, POISON ; type
+	db BUG, FERAL ; type
 	db 45 ; catch rate
 	db 159 ; base exp
 

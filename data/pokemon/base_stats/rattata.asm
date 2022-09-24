@@ -1,9 +1,9 @@
 	db DEX_RATTATA ; pokedex id
 
-	db  30,  56,  35,  72,  25
+	db  45,  66,  50,  72,  40
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, FERAL ; type
 	db 255 ; catch rate
 	db 57 ; base exp
 

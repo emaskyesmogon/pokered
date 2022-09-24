@@ -1,9 +1,9 @@
 	db DEX_MUK ; pokedex id
 
-	db 105, 105,  75,  50,  65
+	db 145, 110,  85,  50,  75
 	;   hp  atk  def  spd  spc
 
-	db POISON, POISON ; type
+	db POISON, COSMIC ; type
 	db 75 ; catch rate
 	db 157 ; base exp
 
@@ -16,7 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    HYPER_BEAM,   RAGE,         MEGA_DRAIN,   \
 	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE
+	     SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    TRI_ATTACK,   \
+		 SUBSTITUTE
 	; end
 
 	db 0 ; padding

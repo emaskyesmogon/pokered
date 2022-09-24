@@ -3,7 +3,7 @@
 	db  60,  90,  55, 100,  90
 	;   hp  atk  def  spd  spc
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, WATER ; type
 	db 75 ; catch rate
 	db 122 ; base exp
 
@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   FLASH
+	     THUNDER_WAVE, SUBSTITUTE,   SURF,         FLASH
 	; end
 
 	db 0 ; padding

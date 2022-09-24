@@ -1,9 +1,9 @@
 	db DEX_HORSEA ; pokedex id
 
-	db  30,  40,  70,  60,  70
+	db  40,  40,  75,  60,  75
 	;   hp  atk  def  spd  spc
 
-	db WATER, WATER ; type
+	db WATER, DRAGON ; type
 	db 225 ; catch rate
 	db 83 ; base exp
 

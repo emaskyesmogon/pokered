@@ -1,6 +1,6 @@
 	db DEX_PIDGEOTTO ; pokedex id
 
-	db  63,  60,  55,  71,  50
+	db  63,  80,  55,  81,  50
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type

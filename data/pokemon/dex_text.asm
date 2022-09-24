@@ -1507,3 +1507,216 @@ _VictreebelDexEntry::
 	next "has ever returned"
 	next "from there"
 	dex
+
+_RoardanDexEntry::
+	text "Very dangerous"
+	next "and frequently"
+	next "rampages wildly."
+
+	page "It can crush"
+	next "anything within"
+	next "its huge jaws"
+	dex
+
+_GuardiaDexEntry::
+	text "A caring #MON"
+	next "that adopts"
+	next "orphaned CUBONE"
+
+	page "and raises them"
+	next "until they're"
+	next "ready to evolve"
+	dex
+
+_ScaribouDexEntry::
+	text "Once hunted"
+	next "in the past for"
+	next "its impressive"
+
+	page "antlers, it's"
+	next "now under strict"
+	next "protection"
+	dex
+
+_LuxswanDexEntry::
+	text "A species that is"
+	next "rarely seen. It"
+	next "always holds a"
+
+	page "spring onion"
+	next "flower, according"
+	next "to studies"
+	dex
+
+_DecillaDexEntry::
+	text "A timid #MON,"
+	next "DECILLA loudly"
+	next "cries out for"
+
+	page "its parents"
+	next "if it ever feels"
+	next "threatened"
+	dex
+
+_BlottleDexEntry::
+	text "A descendant of"
+	next "the ancient"
+	next "OMANYTE. It"
+
+	page "secretes ink"
+	next "from the tips of"
+	next "its tentacles"
+	dex
+
+_KotoraDexEntry::
+	text "As it builds up"
+	next "electricity in"
+	next "its fur, touching"
+
+	page "it is risky. It's"
+	next "a very popular"
+	next "pet regardless"
+	dex
+
+_MawsDexEntry::
+	text "Known as the"
+	next "Sailor's Scourge,"
+	next "it rams its"
+
+	page "proud horn into"
+	next "the hulls of"
+	next "approaching ships"
+	dex
+
+_JabettaDexEntry::
+	text "An ill-tempered"
+	next "#MON, they"
+	next "frequently pick"
+
+	page "fights with"
+	next "each other to"
+	next "claim territory"
+	dex
+
+_GaotoraDexEntry::
+	text "An endangered"
+	next "species, due to"
+	next "hunters targeting"
+
+	page "it for its soft"
+	next "yellow fur and"
+	next "tough fangs"
+	dex
+
+_StacktusDexEntry::
+	text "Found in arid"
+	next "regions. Its legs"
+	next "are adapted for"
+
+	page "maneuverability"
+	next "on sandy and"
+	next "rocky terrain"
+	dex
+
+_CoinyaDexEntry::
+	text "Its eyesight is"
+	next "still developing,"
+	next "so it cannot see"
+
+	page "very well. KONYA"
+	next "are drawn to very"
+	next "shiny objects"
+	dex
+
+_BittybatDexEntry::
+	text "Due to their tiny"
+	next "size, several of"
+	next "these #MON may"
+
+	page "swarm a victim"
+	next "at once to"
+	next "prey on it"
+	dex
+
+_RibbitoDexEntry::
+	text "Despite its small"
+	next "size, it likes"
+	next "to challenge"
+
+	page "others. It puffs"
+	next "up its chest to"
+	next "appear larger"
+	dex
+
+_CryithanDexEntry::
+	text "During a battle,"
+	next "this #MON cries"
+	next "to dishearten the"
+
+	page "enemy. It strikes"
+	next "once the foe lets"
+	next "their guard down"
+	dex
+
+_BlastykeDexEntry::
+	text "It spews bubbles"
+	next "from the ports"
+	next "on its shell."
+
+	page "This #MON and"
+	next "SQUIRTLE are"
+	next "related species"
+	dex
+
+_FreezetiDexEntry::
+	text "Long thought to"
+	next "be an urban myth"
+	next "until one was"
+
+	page "found hiding in"
+	next "a secluded cave"
+	next "in the tundra"
+	dex
+
+_SkimperDexEntry::
+	text "Incredibly timid,"
+	next "it flees at the"
+	next "smallest sign of"
+
+	page "danger. Gaining"
+	next "its trust is a"
+	next "difficult task"
+	dex
+
+_BawliguaDexEntry::
+	text "Often basks in"
+	next "the sunlight. If"
+	next "its temperature"
+
+	page "rises too high,"
+	next "it cries to"
+	next "cool itself down"
+	dex
+
+_CharcoltDexEntry::
+	text "At this stage, it"
+	next "struggles to"
+	next "keep up with"
+
+	page "its parent. Its"
+	next "flame-covered mane"
+	next "is very hot"
+	dex
+
+_KoijackDexEntry::
+	text "It was once scarce"
+	next "and rarely seen,"
+	next "but thanks to a"
+
+	page "dedicated breeder,"
+	next "it has since"
+	next "flourished"
+	dex
+
+; is full
+

@@ -1,6 +1,6 @@
 	db DEX_SANDSLASH ; pokedex id
 
-	db  75, 100, 110,  65,  55
+	db  75, 115, 110,  65,  55
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type
@@ -18,7 +18,7 @@
 	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     CUT,          STRENGTH
+	     CUT,          STRENGTH,     ROCK_SLIDE
 	; end
 
 	db 0 ; padding

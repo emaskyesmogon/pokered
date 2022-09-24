@@ -1,9 +1,9 @@
 	db DEX_JIGGLYPUFF ; pokedex id
 
-	db 115,  45,  20,  20,  25
+	db 115,  60,  40,  20,  45
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, PSYCHIC_TYPE ; type
 	db 170 ; catch rate
 	db 76 ; base exp
 

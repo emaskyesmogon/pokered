@@ -1,9 +1,9 @@
 	db DEX_CLEFAIRY ; pokedex id
 
-	db  70,  45,  48,  35,  60
+	db  70,  45,  48,  35,  70
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db COSMIC, COSMIC ; type
 	db 150 ; catch rate
 	db 68 ; base exp
 

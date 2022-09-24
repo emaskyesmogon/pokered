@@ -1,9 +1,9 @@
 	db DEX_PRIMEAPE ; pokedex id
 
-	db  65, 105,  60,  95,  60
+	db  65, 105,  60, 135,  60
 	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, FERAL ; type
 	db 75 ; catch rate
 	db 149 ; base exp
 

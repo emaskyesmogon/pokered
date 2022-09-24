@@ -1,9 +1,9 @@
 	db DEX_RATICATE ; pokedex id
 
-	db  55,  81,  60,  97,  50
+	db  70,  91,  75,  97,  65
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, FERAL ; type
 	db 90 ; catch rate
 	db 116 ; base exp
 

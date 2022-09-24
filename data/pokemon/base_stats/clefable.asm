@@ -1,9 +1,9 @@
 	db DEX_CLEFABLE ; pokedex id
 
-	db  95,  70,  73,  60,  85
+	db  95,  70,  73,  60,  95
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db COSMIC, COSMIC ; type
 	db 25 ; catch rate
 	db 129 ; base exp
 
@@ -19,8 +19,8 @@
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH
+	     FIRE_BLAST,   SKULL_BASH,   SOFTBOILED,   REST,         THUNDER_WAVE, \
+		 PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
 	db 0 ; padding

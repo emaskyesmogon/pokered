@@ -1,9 +1,9 @@
 	db DEX_VOLTORB ; pokedex id
 
-	db  40,  30,  50, 100,  55
+	db  45,  45,  50, 100,  70
 	;   hp  atk  def  spd  spc
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, NORMAL ; type
 	db 190 ; catch rate
 	db 103 ; base exp
 
