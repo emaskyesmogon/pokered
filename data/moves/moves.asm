@@ -160,7 +160,7 @@ Moves:
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 15
 	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, COSMIC,        70, 20
 	move PSYWAVE,      SPECIAL_DAMAGE_EFFECT,        1, PSYCHIC_TYPE,  80, 15
-	move SPLASH,       FLINCH_SIDE_EFFECT2,         70, FERAL,        100, 20
+	move SPLASH,       FLINCH_SIDE_EFFECT2,         70, FLYING,       100, 20
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,       100, 40
 	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,        90, WATER,         95, 10
 	move EXPLOSION,    EXPLODE_EFFECT,             250, NORMAL,       100,  5

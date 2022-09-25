@@ -138,6 +138,36 @@ _BalloonderDexEntry::
 	next "attackers"
 	dex
 
+_MiltankDexEntry::
+	text "Its milk is full"
+	next "of nutrition,"
+	next "making it the"
+	
+	page "ultimate beverage"
+	next "for the sick or"
+	next "weary"
+	dex
+
+_WarfursDexEntry::
+	text "The fur that"
+	next "surrounds its body"
+	next "is an outer cloak"
+	
+	page "that conceals its"
+	next "true form, which"
+	next "is never seen"
+	dex 
+
+_WearlycanDexEntry::
+	text "They hunt in a"
+	next "pack, hiding in"
+	next "the pitch white"
+	
+	page "snow. When looking"
+	next "through the cloak"
+	next "it shows no face"
+	dex 
+
 _MissingNoDexEntry::
 	text "This is a newly"
 	next "discovered"

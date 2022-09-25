@@ -45,8 +45,13 @@ UncompressMonSprite::
 	cp KOIJACK + 1 
 	ld a, BANK("Pics 5")
 	jr c, .GotBank
-	jr c, .GotBank 
+	ld a, b 
+	cp VICTREEBEL + 1 
 	ld a, BANK("Pics 7")
+	jr c, .GotBank
+	ld a, b
+	jr c, .GotBank 
+	ld a, BANK("Pics 8")
 .GotBank
 	jp UncompressSpriteData
 

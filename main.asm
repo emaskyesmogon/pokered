@@ -108,6 +108,7 @@ INCLUDE "engine/overworld/emotion_bubbles.asm"
 INCLUDE "engine/events/evolve_trade.asm"
 INCLUDE "engine/battle/move_effects/substitute.asm"
 INCLUDE "engine/menus/pc.asm"
+INCLUDE "engine/battle/move_effects/one_hit_ko.asm"
 
 
 SECTION "Play Time", ROMX
@@ -165,7 +166,6 @@ INCLUDE "engine/slots/game_corner_slots2.asm"
 SECTION "Battle Engine 6", ROMX
 
 INCLUDE "engine/battle/move_effects/mist.asm"
-INCLUDE "engine/battle/move_effects/one_hit_ko.asm"
 INCLUDE "engine/battle/move_effects/pay_day.asm"
 
 

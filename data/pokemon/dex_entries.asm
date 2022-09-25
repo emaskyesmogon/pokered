@@ -120,7 +120,7 @@ PokedexEntryPointers:
 	dw DugtrioDexEntry
 	dw VenomothDexEntry
 	dw DewgongDexEntry
-	dw MissingNoDexEntry
+	dw MiltankDexEntry
 	dw PendrakenDexEntry
 	dw CaterpieDexEntry
 	dw MetapodDexEntry
@@ -190,6 +190,8 @@ PokedexEntryPointers:
 	dw BellsproutDexEntry
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
+	dw WarfursDexEntry
+	dw WearlycanDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -1505,3 +1507,24 @@ BalloonderDexEntry:
 	dw 10
 	text_far _BalloonderDexEntry
 	text_end
+
+MiltankDexEntry:
+    db "COW@"
+	db 1,2
+	dw 755
+	text_far _MiltankDexEntry
+	text_end 
+
+WarfursDexEntry:
+    db "HUNTER@"
+	db 1,0
+	dw 442
+	text_far _WarfursDexEntry
+	text_end 
+
+WearlycanDexEntry:
+    db "PACK@"
+	db 3,8
+	dw 1234
+	text_far _WearlycanDexEntry
+	text_end 

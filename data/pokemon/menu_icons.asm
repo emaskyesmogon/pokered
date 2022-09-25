@@ -105,6 +105,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Kotora
 	nybble ICON_QUADRUPED ; Gaotora
 	nybble ICON_QUADRUPED ; Gorotora
+	nybble ICON_MON       ; Warfurs
+	nybble ICON_MON       ; Wearlycan
 	nybble ICON_SNAKE     ; Onix
 	nybble ICON_MON	      ; Crocky
 	nybble ICON_MON       ; Gastly
@@ -145,6 +147,7 @@ MonPartyData:
 	nybble ICON_MON	    ; Kangaskhan
 	nybble ICON_MON       ; Trampel
 	nybble ICON_QUADRUPED ; Tauros
+	nybble ICON_FAIRY     ; Miltank
 	nybble ICON_QUADRUPED ; Deer
 	nybble ICON_FAIRY     ; Chansey
 	nybble ICON_WATER     ; Tentacool

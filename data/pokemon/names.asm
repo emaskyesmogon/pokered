@@ -120,7 +120,7 @@ MonsterNames::
 	db "DUGTRIO@@@"
 	db "VENOMOTH@@"
 	db "DEWGONG@@@"
-	db "MISSINGNO."
+	db "MILTANK@@@"
 	db "PENDRAKEN@"
 	db "CATERPIE@@"
 	db "METAPOD@@@"
@@ -190,4 +190,6 @@ MonsterNames::
 	db "BELLSPROUT"
 	db "WEEPINBELL"
 	db "VICTREEBEL"
+	db "WARFURS@@@"
+	db "WEARLYCAN@"
 	assert_table_length NUM_POKEMON_INDEXES

@@ -123,7 +123,7 @@ EvosMovesPointerTable:
 	dw DugtrioEvosMoves
 	dw VenomothEvosMoves
 	dw DewgongEvosMoves
-	dw MissingNo79EvosMoves ; fill this
+	dw MiltankEvosMoves
 	dw PendrakenEvosMoves
 	dw CaterpieEvosMoves
 	dw MetapodEvosMoves
@@ -193,6 +193,8 @@ EvosMovesPointerTable:
 	dw BellsproutEvosMoves
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
+	dw WarfursEvosMoves
+	dw WearlycanEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
 RhydonEvosMoves:
@@ -1612,10 +1614,14 @@ DewgongEvosMoves:
 	db 56, ICE_BEAM
 	db 0
 
-MissingNo79EvosMoves:
+MiltankEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 19, GROWL
+	db 26, RECOVER
+	db 34, BODY_SLAM
+	db 43, BIDE
 	db 0
 
 PendrakenEvosMoves:
@@ -2394,3 +2400,26 @@ VictreebelEvosMoves:
 	db 15, POISONPOWDER
 	db 18, SLEEP_POWDER
 	db 0
+
+WarfursEvosMoves:
+; Evolutions 
+	db EV_LEVEL, 31, WEARLYCAN
+	db 0 
+; Learnset 
+	db 15, RAGE
+	db 21, FURY_SWIPES
+	db 29, AURORA_BEAM
+	db 37, HYPER_FANG
+    db 44, BLIZZARD 
+	db 0
+
+WearlycanEvosMoves:
+; Evolutions
+	db 0 
+; Learnset
+	db 15, RAGE
+	db 21, FURY_SWIPES
+	db 29, AURORA_BEAM
+	db 40, HYPER_FANG
+	db 47, BLIZZARD
+	db 0 

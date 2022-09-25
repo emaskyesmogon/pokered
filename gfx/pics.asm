@@ -254,6 +254,8 @@ VenomothPicFront::     INCBIN "gfx/pokemon/front/venomoth.pic"
 VenomothPicBack::      INCBIN "gfx/pokemon/back/venomothb.pic"
 DewgongPicFront::      INCBIN "gfx/pokemon/front/dewgong.pic"
 DewgongPicBack::       INCBIN "gfx/pokemon/back/dewgongb.pic"
+MiltankPicFront::      INCBIN "gfx/pokemon/front/miltank.pic"
+MiltankPicBack::       INCBIN "gfx/pokemon/back/miltankb.pic"
 PendrakenPicFront::    INCBIN "gfx/pokemon/front/pendraken.pic"
 PendrakenPicBack::     INCBIN "gfx/pokemon/back/pendrakenb.pic"
 CaterpiePicFront::     INCBIN "gfx/pokemon/front/caterpie.pic"
@@ -449,3 +451,11 @@ WeepinbellPicFront::   INCBIN "gfx/pokemon/front/weepinbell.pic"
 WeepinbellPicBack::    INCBIN "gfx/pokemon/back/weepinbellb.pic"
 VictreebelPicFront::   INCBIN "gfx/pokemon/front/victreebel.pic"
 VictreebelPicBack::    INCBIN "gfx/pokemon/back/victreebelb.pic"
+
+
+SECTION "Pics 8", ROMX
+
+WarfursPicFront::      INCBIN "gfx/pokemon/front/warfurs.pic"
+WarfursPicBack::       INCBIN "gfx/pokemon/back/warfursb.pic"
+WearlycanPicFront::    INCBIN "gfx/pokemon/front/wearlycan.pic"
+WearlycanPicBack::     INCBIN "gfx/pokemon/back/wearlycanb.pic"

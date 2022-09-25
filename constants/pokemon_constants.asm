@@ -127,7 +127,7 @@
 	const DUGTRIO            ; $76
 	const VENOMOTH           ; $77
 	const DEWGONG            ; $78
-	const_skip               ; $79
+	const MILTANK              ; $79
 	const PENDRAKEN              ; $7A
 	const CATERPIE           ; $7B
 	const METAPOD            ; $7C
@@ -197,6 +197,8 @@
 	const BELLSPROUT         ; $BC
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE
+	const WARFURS
+	const WEARLYCAN
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

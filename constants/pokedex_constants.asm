@@ -109,6 +109,8 @@
 	const DEX_GOROTORA
 	const DEX_RIBBITO
 	const DEX_CROAKOZUNA
+	const DEX_WARFURS
+	const DEX_WEARLYCAN
 	const DEX_ONIX       ; 95
 	const DEX_CRAGODILE
 	const DEX_GASTLY     ; 92
@@ -149,6 +151,7 @@
 	const DEX_KANGASKHAN ; 115
 	const DEX_TRAMPEL
 	const DEX_TAUROS     ; 128
+	const DEX_MILTANK
 	const DEX_SCARIBOU
 	const DEX_CHANSEY    ; 113
 	const DEX_TENTACOOL  ; 72

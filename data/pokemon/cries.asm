@@ -126,7 +126,7 @@ CryData::
 	mon_cry SFX_CRY_0B, $2A, $10 ; Dugtrio
 	mon_cry SFX_CRY_1A, $29, $80 ; Venomoth
 	mon_cry SFX_CRY_0C, $23, $FF ; Dewgong
-	mon_cry SFX_CRY_09, $FF, $20 ; Missingno 
+	mon_cry SFX_CRY_09, $FF, $20 ; Miltank 
 	mon_cry SFX_CRY_13, $3C, $00 ; Pendraken
 	mon_cry SFX_CRY_16, $80, $20 ; Caterpie
 	mon_cry SFX_CRY_1C, $CC, $01 ; Metapod
@@ -196,4 +196,6 @@ CryData::
 	mon_cry SFX_CRY_21, $55, $01 ; Bellsprout
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
+	mon_cry SFX_CRY_00, $2C, $C0 ; Warfurs
+	mon_cry SFX_CRY_01, $2C, $E0 ; Wearlycan
 	assert_table_length NUM_POKEMON_INDEXES
