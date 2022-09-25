@@ -128,6 +128,7 @@ SECTION "Pokémon Names", ROMX
 INCLUDE "data/pokemon/names.asm"
 INCLUDE "engine/movie/oak_speech/clear_save.asm"
 INCLUDE "engine/events/elevator.asm"
+INCLUDE "engine/overworld/field_moves.asm"
 
 
 SECTION "Hidden Objects 1", ROMX
